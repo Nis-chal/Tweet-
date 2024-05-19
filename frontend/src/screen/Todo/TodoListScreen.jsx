@@ -27,7 +27,8 @@ const TodoListScreen = () => {
   };
 
   const handleDelete = (id) => {
-    setTodos(todos.filter((todo) => todo._id !== id));
+    console.log(id);
+    setTodos((prev) => prev.filter((todo) => todo._id !== id));
   };
 
   return (

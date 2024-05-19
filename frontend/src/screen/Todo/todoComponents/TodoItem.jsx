@@ -1,9 +1,8 @@
-// src/components/TodoItem.js
-import React from "react";
 import { deleteTodo, updateTodo } from "../../../api/todoApi";
 
 const TodoItem = ({ todo, onUpdate, onDelete }) => {
-  const handleDelete = async () => {
+  const handleDelete = async (e) => {
+    e.stopPropagation();
     await deleteTodo(todo._id);
     onDelete(todo._id);
   };
