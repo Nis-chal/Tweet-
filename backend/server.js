@@ -2,6 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const { connectDB } = require("./config/db.config");
 const tweetRoutes = require("./routes/tweetRoutes");
+const todoRoutes = require("./routes/todoRoutes");
 const cors = require("cors");
 const app = express();
 app.use(express.json());
@@ -17,6 +18,7 @@ connectDB(
 );
 
 app.use("/api/tweets", tweetRoutes);
+app.use("/api/todos", todoRoutes);
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
