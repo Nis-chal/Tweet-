@@ -4,7 +4,7 @@ import { useCart } from "../../context/globalContext";
 import { useCallback } from "react";
 
 const Cart = () => {
-  const { cart, handleIncrement, handleDecrement } = useCart();
+  const { cart, handleIncrement, handleDecrement, clearCart } = useCart();
   const navigate = useNavigate();
   const totalPrice = cart.reduce(
     (acc, item) => acc + item.price * item.quantity,
@@ -23,7 +23,16 @@ const Cart = () => {
 
   return (
     <div className="container">
-      <h2>Cart</h2>
+      <div className="d-flex justify-content-between mt-3">
+        <h2>Cart</h2>
+        <button
+          type="button"
+          className="btn bg-black px-1 py-0 text-white"
+          onClick={clearCart}
+        >
+          clear Cart
+        </button>
+      </div>
       <ul className="list-group">
         {cart.map((item) => (
           <li
