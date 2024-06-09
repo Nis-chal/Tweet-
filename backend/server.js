@@ -1,8 +1,10 @@
 const express = require("express");
 require("dotenv").config();
 const { connectDB } = require("./config/db.config");
-const tweetRoutes = require("./routes/tweetRoutes");
-const todoRoutes = require("./routes/todoRoutes");
+
+const itemsRoutes = require("./routes/itemRoutes");
+const orderRoutes = require("./routes/orderRoutes");
+
 const cors = require("cors");
 const app = express();
 app.use(express.json());
@@ -17,8 +19,8 @@ connectDB(
   "mongodb+srv://code11:code11@cluster0.6vszo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 );
 
-app.use("/api/tweets", tweetRoutes);
-app.use("/api/todos", todoRoutes);
+app.use("/api/items", itemsRoutes);
+app.use("/api/orders", orderRoutes);
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

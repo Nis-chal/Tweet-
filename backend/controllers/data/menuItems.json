@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "1",
+    "name": "Sushi",
+    "description": "Delicious sushi rolls",
+    "price": 10.99,
+    "url": "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": "2",
+    "name": "Pizza",
+    "description": "Freshly baked pizza",
+    "price": 15.99,
+    "url": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": "3",
+    "name": "Burger",
+    "description": "Juicy beef burger",
+    "price": 8.99,
+    "url": "https://images.unsplash.com/photo-1550950158-d0d960dff51b?q=80&w=2960&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": "4",
+    "name": "Pasta",
+    "description": "Homemade pasta",
+    "price": 12.99,
+    "url": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": "5",
+    "name": "Salad",
+    "description": "Fresh garden salad",
+    "price": 7.99,
+    "url": "https://plus.unsplash.com/premium_photo-1673590981774-d9f534e0c617?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": "6",
+    "name": "Sandwich",
+    "description": "Classic club sandwich",
+    "price": 9.99,
+    "url": "https://images.unsplash.com/photo-1540713434306-58505cf1b6fc?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": "7",
+    "name": "Tacos",
+    "description": "Authentic Mexican tacos",
+    "price": 11.99,
+    "url": "https://images.unsplash.com/photo-1624300629298-e9de39c13be5?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGV"
+  },
+  {
+    "_id": "8",
+    "name": "Steak",
+    "description": "Grilled sirloin steak",
+    "price": 19.99,
+    "url": "https://images.unsplash.com/photo-1583953623787-ada99d338235?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": "9",
+    "name": "Chicken Wings",
+    "description": "Spicy buffalo wings",
+    "price": 8.49,
+    "url": "https://images.unsplash.com/photo-1608039755401-742074f0548d?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "_id": "10",
+    "name": "Sushi Combo",
+    "description": "Assorted sushi platter",
+    "price": 24.99,
+    "url": "https://images.unsplash.com/photo-1603894483438-97b51d226e70?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  }
+]
