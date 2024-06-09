@@ -52,6 +52,7 @@ const HomeScreen = () => {
                 <div className="card-body">
                   <h5 className="card-title">{item.name}</h5>
                   <p className="card-text">${item.price}</p>
+                  <p className="card-text">{item.description}</p>
                   <button
                     className="btn btn-primary"
                     onClick={() => handleClick(item)}
