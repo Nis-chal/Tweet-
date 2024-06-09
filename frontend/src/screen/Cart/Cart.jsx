@@ -64,6 +64,7 @@ const Cart = () => {
         type="button"
         className="btn btn-primary"
         onClick={handleSaveOrder}
+        disabled={cart.length === 0}
       >
         Checkout
       </button>
