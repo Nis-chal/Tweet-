@@ -30,7 +30,7 @@ function PastOrder() {
             <ul className="list-group">
               {order.items.map((item) => (
                 <li key={item._id} className="list-group-item">
-                  {item.menuItem.name} - Quantity: {item.quantity}
+                  {item?.name} - Quantity: {item.quantity}
                 </li>
               ))}
             </ul>

@@ -9,6 +9,7 @@ const saveOrder = async (req, res) => {
     const newOrder = new Order({
       items: items.map((item) => ({
         menuItem: item._id,
+        name: item.name,
         quantity: item.quantity,
         price: item.price,
       })),
